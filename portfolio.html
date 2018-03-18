@@ -1,23 +1,95 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./Assets/css/style.css">
 </head>
+
 <body>
-    <!-- Navigation bar fixed to the top of the page -->
-    <nav class="navbar fixed-top navbar-light" style="background-color: #e3f2fd;">
-        <div class="container-fluid">
-          <h2>James Broadbent</h2>
-          <div class="navbar navbar-right">
-            <a class="nav-link nav-item active" href="index.html">About</a>
-            <a class="nav-link nav-item active" href="portfolio.html">Portfolio</a>
-            <a class="nav-link nav-item active" href="contact.html">Contact</a>
-          </div>
+  <!-- Navigation bar fixed to the top of the page -->
+  <header class="navbar fixed-top navbar-light flex flex-column flex-md-row bd-navbar row" style="background-color: #e3f2fd;"
+    role="navigation">
+    <h2>James Broadbent</h2>
+    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+      <li class="nav-item p-2">
+        <a class="nav-link active" href="index.html">About</a>
+      </li>
+      <li class="nav-item p-2">
+        <a class="nav-link nav-item active" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item p-2">
+        <a class="nav-link nav-item active" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </header>
+
+  <!-- Container for main content -->
+
+  <div class="container main">
+    <div class="row mainHeading">
+      Portfolio
+    </div>
+  <div class="imgBox grow float-left">
+        <img class="img-thumbnail imageSize" src="./Assets/images/bananasfoster.jpg" alt="food">
+        <div class="imgText">
+          Bananas Foster Pancakes
         </div>
-      </nav>
+      </div>
+      <div class="imgBox grow float-left">
+        <img class="img-thumbnail imageSize" src="./Assets/images/beignets.jpg" alt="new orleans food">
+        <div class="imgText">
+          Beignets
+        </div>
+      </div>
+      <div class="imgBox grow float-left">
+        <img class="img-thumbnail imageSize" src="./Assets/images/chickenandwaffles.jpg" alt="Chicken and Waffles">
+        <div class="imgText">
+          Chicken and Waffles
+        </div>
+      </div>
+      <div class="imgBox grow float-left">
+        <img class="img-thumbnail imageSize" src="./Assets/images/chocorua.jpg" alt="hiking trail">
+        <div class="imgText">
+          Chocorua
+        </div>
+      </div>
+      <div class="imgBox grow float-left">
+        <img class="img-thumbnail imageSize" src="./Assets/images/denali.jpg" alt="mountain">
+        <div class="imgText">
+          Denali
+        </div>
+      </div>
+      <div class="imgBox grow float-left">
+        <img class="img-thumbnail imageSize" src="./Assets/images/lobster.jpg" alt="fresh seafood">
+        <div class="imgText">
+          Lobster
+        </div>
+      </div>
+      <div class="imgBox grow float-left">
+        <img class="img-thumbnail imageSize" src="./Assets/images/tree.jpg" alt="cool tree in snow">
+        <div class="imgText">
+          Cool Tree
+        </div>
+      </div>
+      <div class="imgBox grow float-left">
+        <img class="img-thumbnail imageSize" src="./Assets/images/washington.jpg" alt="Top of Mount Washington">
+        <div class="imgText">
+          Washington
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <footer>
+
+  </footer>
 </body>
+
 </html>
