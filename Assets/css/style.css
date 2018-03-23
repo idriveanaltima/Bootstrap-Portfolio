@@ -1,11 +1,16 @@
 body {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 30px;
   background: url(../images/lake.jpg) whitesmoke;
   background-size: cover;
   background-repeat: no-repeat;
+  font-weight: bolder;
 }
 
+header {
+  color: #1F57AD;
+  font:
+}
 .imageSize {
   width: 240px;
   height: 200px;
@@ -32,7 +37,7 @@ body {
   padding: 15px;
   margin-bottom: 20px;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #4aaaa5;
+  color: #1F57AD;
   font-weight: bolder;
 }
 
@@ -54,6 +59,7 @@ body {
   padding: 6px;
   color: #ffffff;
   font-size: 18px;
+  font-weight: 100;
 }
 
 .grow { 
@@ -61,18 +67,6 @@ body {
 }
 .grow:hover { 
   transform: scale(1.1); 
-}
-
-footer {
-  position: fixed;
-  bottom: 0;
-  height: 5%;
-  width: 100%;
-  text-align: center;
-  color: white;
-  background-color: #666666;
-  border-top: 10px solid #4aaaa5;
-  font-size: 16px;
 }
 
 label {
